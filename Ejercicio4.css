@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    font-family: 'Pacifico', cursive;
+}
+body{
+    background: url(Ossobuco2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.ingredientes{
+    font-size: 40px;
+}
+.ingrediente1{
+    margin: auto;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: maroon;
+    color: white;
+    border: black 5px ridge;
+    border-radius: 5px;
+    padding: 10px;
+}
+.instruccion{
+    justify-content: center;
+    font-size: 40px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lista{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black 5px ridge;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: maroon;
+    color: white;
+}
